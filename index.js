@@ -51,8 +51,9 @@ app.get('/', (req, res) => {
   }
 
   res.status(200)
-     .send('[Session Id: ' + req.session.id + '] Visited count: ' + req.session.visit.count ).end();
+     .json('[Session Id: ' + req.session.id + '] Visited count: ' + req.session.visit.count ).end();
 });
+
 
 
  
