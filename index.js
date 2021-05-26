@@ -6,7 +6,7 @@ const app = express();
 
 // require('./express-startup/routes')(app);
 var whitelist = ['http://localhost:3300', 
-                 'http://localhost:4200/',
+                 'http://localhost:4200',
                   undefined  /** other domains if any */ ];
 
 var corsOptions = {
